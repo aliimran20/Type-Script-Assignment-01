@@ -1,0 +1,9 @@
+let personname = "Ali Imran"
+console.log ("Lower Case: " + personname.toLowerCase())
+console.log ("Upper Case: " + personname.toUpperCase())
+console.log ("Title Case: " + personname.toString())
+
+Output: 
+Lower Case: ali imran
+Upper Case: ALI IMRAN
+Title Case: Ali Imran
