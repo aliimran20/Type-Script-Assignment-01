@@ -1,4 +1,4 @@
 let personname = "Ali Imran"
 console.log ("Hey " + personname + ", Ready to Start Your Type Script Assignments?")
 
-Output: Hey Ali Imran, Ready to Start Your Type Script Assignments?
+Output: Hey Ali Imran, Ready to Start Your Type Script Assignments? 
