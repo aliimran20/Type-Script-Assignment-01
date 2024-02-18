@@ -1,0 +1,17 @@
+let array = ["Mr. Hamza", "Mr. Zia", "Mr. Daniyal", "Mr. Obaid"]
+
+console.log("Hey " + array[0] + ", I would like to invite you to dinner at Governor House tomorrow")
+console.log("Hey " + array[1] + ", I would like to invite you to dinner at Governor House tomorrow")
+console.log("Hey " + array[2] + ", I would like to invite you to dinner at Governor House tomorrow")
+console.log("Hey " + array[3] + ", I would like to invite you to dinner at Governor House tomorrow")
+
+
+console.log("\nWe are inviting a total of " + array.length + " guests at Governor House tomorrow")
+
+Output:
+Hey Mr. Hamza, I would like to invite you to dinner at Governor House tomorrow
+Hey Mr. Zia, I would like to invite you to dinner at Governor House tomorrow
+Hey Mr. Daniyal, I would like to invite you to dinner at Governor House tomorrow
+Hey Mr. Obaid, I would like to invite you to dinner at Governor House tomorrow
+
+We are inviting a total of 4 guests at Governor House tomorrow
