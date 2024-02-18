@@ -1,0 +1,10 @@
+let array = ["Hamza", "Bilal", "Maaz"]
+
+console.log(array[0] + ", how are you?")
+console.log(array[1] + ", how are you?")
+console.log(array[2] + ", how are you?")
+
+Output:
+Hamza, how are you?
+Bilal, how are you?
+Maaz, how are you?
