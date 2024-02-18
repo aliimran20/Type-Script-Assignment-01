@@ -1,0 +1,7 @@
+let namewithwhitespaces = "\n \t Ali Imran \n \t"
+
+console.log("Name with White Spaces:" + namewithwhitespaces)
+
+let namewithoutwhitespaces = namewithwhitespaces.trim()
+
+console.log("Name without White Spaces: " + namewithoutwhitespaces)
