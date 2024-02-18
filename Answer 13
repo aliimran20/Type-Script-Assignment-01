@@ -1,0 +1,9 @@
+let array = ["Car", "Motorcycle", "Private Jet"]
+
+console.log("I would like to have a " + array[0])
+console.log("But " + array[1] + " is more affordable")
+console.log("And my dream is to own a " + array[2])
+
+I would like to have a Car
+But Motorcycle is more affordable
+And my dream is to own a Private Jet
