@@ -1,0 +1,36 @@
+let places = ["Russia", "Brazil", "USA", "Canada", "Peru"]
+
+console.log("\nOriginal: " + places)
+console.log("\nAlphabetical Order: " + [...places].sort())
+console.log("\nOriginal Remains Same: " + places)
+
+console.log("\nReverse Order: " + [...places].sort().reverse())
+console.log("\nOriginal Remains Same: " + places)
+
+places.reverse()
+console.log("\nReverse: " + places)
+places.reverse()
+console.log("\nReverse Again: " + places)
+
+places.sort()
+console.log("\nOrder Changed Alphabetically: " + places)
+places.sort().reverse()
+console.log("\nFinal Order:" + places)
+
+Output:
+
+Original: Russia,Brazil,USA,Canada,Peru
+
+Alphabetical Order: Brazil,Canada,Peru,Russia,USA
+
+Original Remains Same: Russia,Brazil,USA,Canada,Peru
+
+Reverse Order: USA,Russia,Peru,Canada,Brazil
+
+Original Remains Same: Russia,Brazil,USA,Canada,Peru
+
+Reverse: Peru,Canada,USA,Brazil,Russia
+
+Reverse Again: Russia,Brazil,USA,Canada,Peru
+
+Order Changed Alphabetically: Brazil,Canada,Peru,Russia,USA
