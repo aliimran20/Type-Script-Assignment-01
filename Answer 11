@@ -1,0 +1,10 @@
+let array = ["Hamza", "Bilal", "Maaz"]
+
+console.log(array[0])
+console.log(array[1])
+console.log(array[2])
+
+Output;
+Hamza
+Bilal
+Maaz
