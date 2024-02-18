@@ -1,0 +1,11 @@
+//Stores a number
+let favoritenumber = 18
+
+//Stores the number
+let message = ("My favorite number is: " + favoritenumber)
+
+//Prints the message
+console.log(message)
+
+Output:
+Same output as previously submitted program (// adds the comment and won't print in the main program
