@@ -1,0 +1,7 @@
+let favoritenumber = 18
+let message = ("My favorite number is: " + favoritenumber)
+
+console.log(message)
+
+Output:
+My favorite number is: 18
