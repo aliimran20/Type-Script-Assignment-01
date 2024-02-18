@@ -1,0 +1,38 @@
+let updatedarray01 = ["Mr. Hamza", "Mr. Qasim", "Mr. Bob", "Mr. Zia", "Mr. Daniyal", "Mr. Obaid"]
+updatedarray01.push("Mr. Zeeshan") //Pushes Mr. Zeeshan to end of the array
+
+console.log("\nHey " + updatedarray01[0] + ", I would like to invite you to dinner at Governor House tommorrow")
+console.log("Hey " + updatedarray01[1] + ", I would like to invite you to dinner at Governor House tommorrow")
+console.log("Hey " + updatedarray01[2] + ", I would like to invite you to dinner at Governor House tommorrow")
+console.log("Hey " + updatedarray01[3] + ", I would like to invite you to dinner at Governor House tommorrow")
+console.log("Hey " + updatedarray01[4] + ", I would like to invite you to dinner at Governor House tommorrow")
+console.log("Hey " + updatedarray01[5] + ", I would like to invite you to dinner at Governor House tommorrow")
+console.log("Hey " + updatedarray01[6] + ", I would like to invite you to dinner at Governor House tommorrow")
+
+console.log("\nOops, we can only invite two guests for our dinner tonight")
+
+console.log("\nSorry " + updatedarray01[0] + ", we are unable to invite you")
+updatedarray01.shift() //Deletes first entry (Mr. Hamza)
+console.log("Sorry " + updatedarray01[0] + ", we are unable to invite you")
+updatedarray01.shift() //Deletes second entry (Mr. Qasim)
+console.log("Sorry " + updatedarray01[0] + ", we are unable to invite you")
+updatedarray01.shift() //Deletes third entry (Mr. Bob)
+console.log("Sorry " + updatedarray01[0] + ", we are unable to invite you")
+updatedarray01.shift() //Deletes fourth entry (Mr. Zia)
+console.log("Sorry " + updatedarray01[0] + ", we are unable to invite you")
+updatedarray01.shift() //Deletes fourth entry (Mr. Daniyal)
+
+console.log("\nHey " + updatedarray01[0] + ", you are still invited")
+console.log("Hey " + updatedarray01[1] + ", you are still invited")
+
+console.log("\n",updatedarray01[2] + "\n",updatedarray01[3]) //undefined reflects that only first two entries i.e 0 & 1 are present, rest are deleted
+
+Sorry Mr. Bob, we are unable to invite you
+Sorry Mr. Zia, we are unable to invite you
+Sorry Mr. Daniyal, we are unable to invite you
+
+Hey Mr. Obaid, you are still invited
+Hey Mr. Zeeshan, you are still invited
+
+ undefined
+ undefined
