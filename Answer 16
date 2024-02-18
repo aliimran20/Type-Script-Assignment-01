@@ -1,0 +1,36 @@
+let array01 = ["Mr. Qasim", "Mr. Zia", "Mr. Daniyal", "Mr. Obaid"] 
+
+console.log("Hey " + array01[0] + ", I would like to invite you to dinner at Governor House tommorrow")
+console.log("Hey " + array01[1] + ", I would like to invite you to dinner at Governor House tommorrow")
+console.log("Hey " + array01[2] + ", I would like to invite you to dinner at Governor House tommorrow")
+console.log("Hey " + array01[3] + ", I would like to invite you to dinner at Governor House tommorrow")
+
+console.log("\nHey, we found a bigger dinner table, let's invite more people")
+
+let updatedarray01 = ["Mr. Hamza", "Mr. Qasim", "Mr. Bob", "Mr. Zia", "Mr. Daniyal", "Mr. Obaid"]
+updatedarray01.push("Mr. Zeeshan") //Pushes Mr. Zeeshan to end of the array
+
+console.log("\nHey " + updatedarray01[0] + ", I would like to invite you to dinner at Governor House tommorrow")
+console.log("Hey " + updatedarray01[1] + ", I would like to invite you to dinner at Governor House tommorrow")
+console.log("Hey " + updatedarray01[2] + ", I would like to invite you to dinner at Governor House tommorrow")
+console.log("Hey " + updatedarray01[3] + ", I would like to invite you to dinner at Governor House tommorrow")
+console.log("Hey " + updatedarray01[4] + ", I would like to invite you to dinner at Governor House tommorrow")
+console.log("Hey " + updatedarray01[5] + ", I would like to invite you to dinner at Governor House tommorrow")
+console.log("Hey " + updatedarray01[6] + ", I would like to invite you to dinner at Governor House tommorrow")
+
+Output:
+Hey Mr. Qasim, I would like to invite you to dinner at Governor House tommorrow
+Hey Mr. Zia, I would like to invite you to dinner at Governor House tommorrow
+Hey Mr. Daniyal, I would like to invite you to dinner at Governor House tommorrow
+Hey Mr. Obaid, I would like to invite you to dinner at Governor House tommorrow
+
+Hey, we found a bigger dinner table, let's invite more people
+
+Hey Mr. Hamza, I would like to invite you to dinner at Governor House tommorrow
+Hey Mr. Qasim, I would like to invite you to dinner at Governor House tommorrow
+Hey Mr.Bob, I would like to invite you to dinner at Governor House tommorrow
+Hey Mr. Zia, I would like to invite you to dinner at Governor House tommorrow
+
+
+
+
