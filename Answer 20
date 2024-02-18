@@ -1,0 +1,6 @@
+let list = ['CPU', 'GPU', 'PSU', 'Peripherals', 'Motherboard', 'Screen']
+
+console.log("List of System Components: " + list)
+
+Output:
+List of System Components: CPU,GPU,PSU,Peripherals,Motherboard,Screen
