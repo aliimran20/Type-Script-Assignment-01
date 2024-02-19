@@ -1,0 +1,14 @@
+let animals = ["Dog", "Cat", "Rabbit"]
+
+for (let i = 0; i < animals.length; i++) 
+{
+    console.log(`A ${animals[i]} would make a great pet.`)
+}
+
+console.log("Any of these animals would make a great pet!")
+
+Output:
+A Dog would make a great pet.
+A Cat would make a great pet.
+A Rabbit would make a great pet.
+Any of these animals would make a great pet!
