@@ -1,0 +1,46 @@
+let a = ('a'); let b = ('b'); let c = ('c'); let d = ('d'); let e = ('e')    //True Statements
+let f = ('f'); let g = ('g'); let h = ('h'); let i = ('i'); let j = ('j')    //False Statements
+
+console.log("Is a == 'a'? I predict True")
+console.log(a == 'a')
+console.log("Is b == 'b'? I predict True")
+console.log(b == 'b')
+console.log("Is c == 'c'? I predict True")
+console.log(c == 'c')
+console.log("Is d == 'd'? I predict True")
+console.log(d == 'd')
+console.log("Is e == 'e'? I predict True")
+console.log(e == 'e')
+
+console.log("Is a == 'a'? I predict False")
+console.log(f == 'a')
+console.log("Is b == 'b'? I predict False")
+console.log(g == 'b')
+console.log("Is c == 'c'? I predict False")
+console.log(h == 'c')
+console.log("Is d == 'd'? I predict False")
+console.log(i == 'd')
+console.log("Is e == 'e'? I predict False")
+console.log(j == 'e')
+
+Output:
+Is a == 'a'? I predict True
+true
+Is b == 'b'? I predict True
+true
+Is c == 'c'? I predict True
+true
+Is d == 'd'? I predict True
+true
+Is e == 'e'? I predict True
+true
+Is a == 'a'? I predict False
+false
+Is b == 'b'? I predict False
+false
+Is c == 'c'? I predict False
+false
+Is d == 'd'? I predict False
+false
+Is e == 'e'? I predict False
+false
