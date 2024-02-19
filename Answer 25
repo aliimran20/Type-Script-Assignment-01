@@ -1,0 +1,6 @@
+let aliencolor = 'red'
+if (aliencolor == 'green') {console.log("You got 5 points")} //fails as the value is not true
+if (aliencolor == 'red') {console.log("You got 5 points")} //passes as the value is true
+
+Output:
+You got 5 points
