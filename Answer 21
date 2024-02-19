@@ -1,0 +1,9 @@
+let obj1 = ('Book ' + 'Pen ' + 'Pencil')
+let obj2 = ('Laptop ' + 'TV ' + 'Keyboard')
+
+console.log(obj1)
+console.log(obj2)
+
+Output:
+Book Pen Pencil
+Laptop TV Keyboard
