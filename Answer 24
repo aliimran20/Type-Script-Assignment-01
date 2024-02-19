@@ -1,0 +1,42 @@
+let string1 = 'hello'; let string2 = 'world';
+
+console.log('Equality Test:', string1 == string2)
+console.log('Inequality Test:', string1 != string2)
+
+let str1 = 'HELLO'; let str2 = 'hello';
+console.log('\nEquality Test Using Lower Case:', str1.toLocaleLowerCase() == str2)
+
+let num1 = 12; let num2 = 10;
+console.log('\nNumber one is equal to number 2:', num1 == num2)
+console.log('Number one is inequal to number 2:', num1 != num2)
+console.log('Number one is greater then number 2:', num1 > num2)
+console.log('Number one is less then number 2:', num1 < num2)
+console.log('Number one is greater then or equal to number 2:', num1 >= num2)
+console.log('Number one is lesser then or equal to number 2:', num1 <= num2)
+
+let x = '4'; let y = '5'; let z = '6';
+console.log('\nAND Test:', x<y && y<z)
+console.log('OR Test:', x>y || y>z)
+
+let arr = ['x', 'y', 'z']
+console.log('\nX is placed in this array:' + arr.includes('x'))
+console.log('A is not placed in this array:' + !arr.includes('a'))
+
+Output:
+Equality Test: false
+Inequality Test: true
+
+Equality Test Using Lower Case: true
+
+Number one is equal to number 2: false
+Number one is inequal to number 2: true
+Number one is greater then number 2: true
+Number one is less then number 2: false
+Number one is greater then or equal to number 2: true
+Number one is lesser then or equal to number 2: false
+
+AND Test: true
+OR Test: false
+
+X is placed in this array:true
+A is not placed in this array:true
