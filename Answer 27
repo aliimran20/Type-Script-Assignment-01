@@ -1,0 +1,7 @@
+let aliencolor = 'red'
+if (aliencolor == 'green') {console.log("You got 5 points")} 
+if (aliencolor == 'yellow') {console.log("You got 10 points")} 
+else(console.log("You got 15 points"))
+
+Output:
+You got 15 points
