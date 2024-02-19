@@ -1,0 +1,15 @@
+let usernames = ['Maaz', 'Bilal', 'Admin', 'Ali',' Hassan']
+
+for (let username of usernames) {if (username == 'Admin') {console.log("Hey Admin, Welcome! Wanna See Reports?")
+    
+}
+  else(console.log(`Hey ${username}, welcome back!`))  
+    
+}
+
+Output:
+Hey Maaz, welcome back!
+Hey Bilal, welcome back!
+Hey Admin, Welcome! Wanna See Reports?
+Hey Ali, welcome back!
+Hey  Hassan, welcome back!
